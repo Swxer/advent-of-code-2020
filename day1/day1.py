@@ -17,3 +17,5 @@ for x in l:
         for z in l:
             if x + y + z == 2020:
                 print(x*y*z)
+                
+f.close()
