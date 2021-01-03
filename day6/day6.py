@@ -27,6 +27,7 @@ print(f'{total} questions people answered "yes" for part 1')
 # PART 2 
 
 def get_unique_ans(current_string):
+    # check common letters from list of strings
     common_q = []
 
     for char in current_string[0]:
@@ -54,3 +55,5 @@ for item in form:
 total += get_unique_ans(current_string)
 
 print(f'{total} questions everyone answered "yes" for part 2')
+
+f.close()
